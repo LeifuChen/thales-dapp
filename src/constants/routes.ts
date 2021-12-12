@@ -15,6 +15,7 @@ export const ROUTES = {
         AmmMining: '/markets/amm-rewards',
         Token: '/token',
         Royal: '/royale',
+        Game: '/game',
     },
     Governance: {
         Home: '/governance',
