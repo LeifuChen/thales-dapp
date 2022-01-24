@@ -115,6 +115,7 @@ export const QUERY_KEYS = {
             networkId,
         ],
         Info: (networkId: NetworkId) => ['token', 'info', networkId],
+        ManualTransition: (walletAddress: string) => ['token', 'doTransactionManually', walletAddress],
     },
     Swap: {
         Tokens: (networkId: NetworkId) => ['swap', 'tokens', networkId],

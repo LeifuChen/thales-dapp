@@ -29,6 +29,7 @@ import { getNetworkId } from '../../../redux/modules/wallet';
 import { getIsOVM, isNetworkSupported } from '../../../utils/network';
 import Migration from './Migration';
 import MigrationNotice from './components/MigrationNotice';
+import MigrationRequestNotice from './components/MigrationRequestNotice';
 
 const EarnPage: React.FC = () => {
     const { t } = useTranslation();
@@ -108,6 +109,7 @@ const EarnPage: React.FC = () => {
                         <FlexDivColumn>
                             <TokenOverview />
                             {!isL2 && <MigrationNotice />}
+                            {!isL2 && <MigrationRequestNotice />}
                             <MainContentContainer>
                                 <OptionsTabContainer>
                                     {optionsTabContent.map((tab, index) => (

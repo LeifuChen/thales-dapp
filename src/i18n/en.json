@@ -1215,6 +1215,14 @@
             "text": " As THALES token holder you have option to migrate your token to L2 (Optimistic Etherium network)",
             "button-label": "Migrate THALES"
         },
+        "migration-request-notice": {
+            "text": " As THALES staker we will automatically migrate your THALES tokens to L2. If you want to keep them on L1, you have 7 days to inform us by opting out)",
+            "button-label": "Opt out"
+        },
+        "migration-request-cancel-notice": {
+            "text": " You have agreed to migrate your tokens manually. You still have time to cancel (3 days) and allow us to migrate your THALES tokens automartically.",
+            "button-label": "Cancel opt-out "
+        },
         "tabs": {
             "migrate": "Migrate",
             "withdraw": "Withdraw",
